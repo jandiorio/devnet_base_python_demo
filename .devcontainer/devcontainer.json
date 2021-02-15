@@ -1,0 +1,7 @@
+{
+    "image": "python:3.9.1-slim-buster",
+    "postStartCommand": "pip install -r requirements.txt",
+    "extensions": [
+        "ms-python.python"
+    ]
+}
